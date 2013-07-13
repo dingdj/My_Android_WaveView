@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:waveview="http://schemas.android.com/apk/res/com.example.waveview"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+ <com.example.waveview.MultiWaveView
+            android:id="@+id/unlock_widget"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+
+            waveview:targetDrawables="@array/lockscreen_targets_with_camera"
+            waveview:targetDescriptions="@array/lockscreen_target_descriptions_with_camera"
+            waveview:directionDescriptions="@array/lockscreen_direction_descriptions"
+            waveview:handleDrawable="@drawable/ic_lockscreen_handle"
+            waveview:waveDrawable="@drawable/ic_lockscreen_outerring"
+            waveview:outerRadius="@dimen/multiwaveview_target_placement_radius"
+            waveview:snapMargin="@dimen/multiwaveview_snap_margin"
+            waveview:hitRadius="@dimen/multiwaveview_hit_radius"
+            waveview:rightChevronDrawable="@drawable/ic_lockscreen_chevron_right"
+            waveview:leftChevronDrawable="@drawable/ic_lockscreen_chevron_left"
+            waveview:topChevronDrawable="@drawable/ic_lockscreen_chevron_up"
+            waveview:bottomChevronDrawable="@drawable/ic_lockscreen_chevron_down"
+            waveview:horizontalOffset="0dip"
+            waveview:verticalOffset="60dip"
+            waveview:feedbackCount="3"
+            waveview:vibrationDuration="20"
+            />  
+
+</RelativeLayout>

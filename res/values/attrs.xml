@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+    <declare-styleable name="waveview">  
+        <attr name="targetDrawables" format="reference" /> 
+        <attr name="feedbackCount" format="integer" />
+        <attr name="snapMargin" format="dimension" />
+        <attr name="outerRadius" format="dimension" />
+        <attr name="vibrationDuration" format="integer" />
+        <attr name="hitRadius" format="dimension" />
+        <attr name="handleDrawable" format="reference" />
+        <attr name="verticalOffset" format="dimension" />
+        <attr name="rightChevronDrawable" format="reference" />
+        <attr name="leftChevronDrawable" format="reference" />
+        <attr name="topChevronDrawable" format="reference" />
+        <attr name="bottomChevronDrawable" format="reference" />
+        <attr name="waveDrawable" format="reference" />
+         <attr name="directionDescriptions" format="reference" />
+         <attr name="targetDescriptions" format="reference" />
+         <attr name="horizontalOffset" format="dimension" />
+         <attr name="chevronDrawables" format="reference"/>
+         
+    </declare-styleable>  
+</resources>
